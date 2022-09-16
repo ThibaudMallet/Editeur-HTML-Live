@@ -1,0 +1,94 @@
+/**
+ * Styles de l'éditeur
+ */
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: 'verdana';
+  background: #333;
+  line-height: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+#title {
+  color: yellow;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  padding: 20px;
+  background: #f0f;
+  /* overflow: empêche le contenu de déborder */
+  overflow: hidden;
+}
+
+#input-text,
+#contenu-html {
+  padding: 10px;
+}
+
+#input-text {
+  border: none;
+}
+
+#contenu-html {
+  background: white;
+  text-align: left;
+}
+
+
+
+
+/**
+ * Styles de base pour la preview HTML dans #contenu-html
+ */
+
+input {
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+}
+
+label {
+  color: #ccc;
+  margin-right: 20px;
+}
+
+img {
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 20px;
+}
+
+iframe {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  height: 500px;
+}
+
+hr {
+  margin: 25px 0;
+  border: none;
+  border-bottom: 1px dashed #333;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 20px;
+  margin-left: 10px;
+}
